@@ -1,0 +1,10 @@
+node_modules 
+.vscode
+coverage
+.env
+dist
+
+tmp/*
+!tmp/.gitkeep
+
+
