@@ -3,6 +3,7 @@ node_modules
 coverage
 .env
 dist
+coverage
 
 tmp/*
 !tmp/.gitkeep
