@@ -7,7 +7,8 @@
     "build": "tsc",
     "dev": "ts-node-dev  --inspect --transpile-only --ignore-watch node_modules src/shared/infra/http/server.ts",
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli",
-    "typeorm2": "typeorm-ts-node-commonjs -d ./src/shared/infra/typeorm/index.ts"
+    "typeorm2": "typeorm-ts-node-commonjs -d ./src/shared/infra/typeorm/index.ts",
+    "test": "jest"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -27,12 +28,15 @@
     "@types/bcryptjs": "^2.4.2",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.15",
+    "@types/jest": "^29.4.0",
     "@types/jsonwebtoken": "^9.0.1",
     "@types/multer": "^1.4.7",
     "@types/uuid": "^9.0.0",
     "eslint": "^8.31.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "install-peerdeps": "^3.0.3",
+    "jest": "^29.4.1",
+    "ts-jest": "^29.0.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.4"
   }

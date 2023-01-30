@@ -5,9 +5,9 @@ import Appointment from "../../../modules/appointments/infra/typeorm/entities/Ap
 const options:  any = {
     type: "postgres",
     host: "localhost",
-    port: 2345,
+    port: 5433,
     username: "postgres",
-    password: "docker",
+    password: "12345",
     database: "gostack_gobarber",
     logging: true,
     synchronize: false,
