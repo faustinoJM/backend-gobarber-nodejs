@@ -5,6 +5,8 @@ import UsersRepository from "../../modules/users/infra/typeorm/repositories/User
 import UsersTokensRepository from "../../modules/users/infra/typeorm/repositories/UsersTokensRepository";
 import IUsersRepository from "../../modules/users/repositories/IUsersRepository";
 import IUserTokensRepository from "../../modules/users/repositories/IUserTokensRepository";
+import "./providers"
+import "../../modules/users/providers"
 
 container.registerSingleton<IAppointmentsRepository>(
   'AppointmentsRepository',

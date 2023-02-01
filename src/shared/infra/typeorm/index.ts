@@ -1,6 +1,7 @@
 import { DataSource} from "typeorm"
 import User from "../../../modules/users/infra/typeorm/entities/User"
 import Appointment from "../../../modules/appointments/infra/typeorm/entities/Appointment"
+import UserToken from "../../../modules/users/infra/typeorm/entities/UserToken"
 
 const options:  any = {
     type: "postgres",
@@ -12,7 +13,7 @@ const options:  any = {
     logging: true,
     synchronize: false,
     entities: [
-      User, Appointment
+      User, Appointment, UserToken
         // "./src/modules/users/infra/typeorm/entities/.ts",
         // "./src/modules/appointments/infra/typeorm/entities/.ts"
 
